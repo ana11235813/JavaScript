@@ -1,13 +1,21 @@
 <html>
 <head>
 	<title>Curso JavaScript - aprenderaprogramar.com</title> <meta charset="utf-8">
+	<script type="text/javascript">
+	function mostrarMensaje1(){
+		alert('Bien venido al curso de javaScript a aprender a programar');
+	}
+	function mostrarMensaje2(){
+		alert('Haz hecho cilck sobre el mensaje inferior');
+	}
+	</script>
 </head>
 <body>
 	<div>
 	<p>Aquí un párrafo de texto situado antes de la imagen, dentro de un div contenedor</p>
 	<img src="http://i.imgur.com/afC0L.jpg" alt="Notepad++" title="Notepad++, un útil editor de texto">
-	<img src="http://i.imgur.com/afC0L.jpg" onclick="alert('Bienvenido al curso de JavaScript')" src="">
-	<p>Aquí otro párrafo de texto. JavaScript es un lenguaje utilizado para dotar de efectos dinámicos a las páginas web.
+	<img src="http://i.imgur.com/afC0L.jpg" onclick="mostrarMensaje1()" src="">
+	<p onclick ="mostrarMensaje2()">Aquí otro párrafo de texto. JavaScript es un lenguaje utilizado para dotar de efectos dinámicos a las páginas web.
 	</p>
 	</div>
 </body>
